@@ -1,0 +1,119 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    transition: 5.23s;
+    position:center;
+    color: black;
+
+}
+
+body{
+
+    background-image: url(../img/21.jpg);
+    background-repeat:no-repeat;
+    background-size: auto;
+    background-color: black;
+    position: absolute;
+
+}
+
+.box input[type = "submit"]{
+
+    border:0;
+    background:none;
+    display: block;
+    margin: 20px auto;
+    text-align:center;
+    border: 3px solid #2ecc71;
+    width: 100px;
+    padding: 14px 10px;
+    outline: none;
+    color: black;
+    cursor: pointer;
+    border-radius: 24px;
+    transition: 0.25s;
+
+}
+
+.box input[type = "submit"]:hover:focus{
+
+  background: #2ecc71;
+  padding: 14px 10px;
+  border: 0;
+  border-radius: 24px;
+
+}
+
+.form-style{
+
+    padding: 14px 10px;
+    position:relative;
+    left: 1230px;
+    border: 3px solid #2ecc71;
+    border-radius: 5px;
+    height: 100px;
+    bottom: 4px;
+    background-repeat: repeat;
+
+}
+
+.regitration_form{
+
+    position:center;
+    padding: 14px 10px;
+
+
+}
+
+.wrapper{
+
+    max-width:300px;
+    border-radius: 20px;
+    margin: auto;
+    background: rgba(0), 0, 0, 0.8);
+    box-sizing: border-box;
+    padding: 20px 100px;
+    color: Black;
+
+}
+
+#name{
+  width: 220%;
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid white;
+  outline: 0;
+  font-family: serif;
+  font-size: 18px;
+  background: none;
+  color: black;
+}
+
+#country_code{
+
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid white;
+  outline: 0;
+  font-family: serif;
+  font-size: 14px;
+  background: none;
+  color: Black;
+
+}
+
+#faculty{
+
+  width: 500%;
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid white;
+  outline: 0;
+  font-family: serif;
+  font-size: 18px;
+  background: none;
+  color: black;
+
+}
