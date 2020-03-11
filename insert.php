@@ -19,6 +19,7 @@ $conn = mysqli_connect('localhost','root','','new_file_database');
                             if ($conn->query($sql) === TRUE) {
 
                                 echo"You have sucessfully registered!";
+                                header('location: login.php');
 
                             }
                             else {
@@ -31,3 +32,26 @@ $conn = mysqli_connect('localhost','root','','new_file_database');
             }
 
       }
+
+  if (isset($_POST['btn-login'])) {
+
+    $conn = mysqli_connect('localhost','root','','new_file_database');
+    echo"Button works";
+    $sqlStmt = "SELECT * FROM users WHERE email_address = '".$_POST["email_address"]."'";
+
+        $result = $conn->query($SqlStmt);
+
+          if ($result-.num_rows > 0 {
+
+                echo"Welcome!";
+
+          }else {
+
+                echo"Oops! Your email";
+                header('location: login.php');
+
+          }
+
+          $conn->close();
+
+  }
